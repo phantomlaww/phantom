@@ -246,15 +246,15 @@ const products = [{
      image: 'pics/83.jpeg',
     name: 'STRAIGHT WIG'
     }, {
-     image: 'b.jpeg',
+     image: 'pics/55.jpeg',
     name: 'STRAIGHT WIG'
     }, {
-     image: 'a.jpeg',
-    name: 'STRAIGHT WIG'
+     image: 'pics/56.jpeg',
+    name: 'BLOND STRAIGHT WIG'
     
     }, {
      image: 'pics/11.jpeg',
-    name: 'pics/11.jpeg'
+    name: 'SILKY STRAIGHT'
 }];
 let productsHTML = '';
 
@@ -273,3 +273,4 @@ console.log(productsHTML);
 
 
 document.querySelector('.law').innerHTML = productsHTML;
+
