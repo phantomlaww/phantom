@@ -246,10 +246,10 @@ const products = [{
      image: 'pics/83.jpeg',
     name: 'STRAIGHT WIG'
     }, {
-     image: 'pics/84.jpeg',
+     image: 'b.jpeg',
     name: 'STRAIGHT WIG'
     }, {
-     image: 'pics/85.jpeg',
+     image: 'a.jpeg',
     name: 'STRAIGHT WIG'
     
     }, {
@@ -269,6 +269,7 @@ productsHTML += `<div class="product">
 });
 
 console.log(productsHTML);
+
 
 
 document.querySelector('.law').innerHTML = productsHTML;
